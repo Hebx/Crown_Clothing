@@ -84,10 +84,12 @@
   "workbench.colorCustomizations": {
     "[Dracula]": {
       "editor.background": "#22212c",
+      "editor.foreground": "#f8f8f2",
       "editor.selectionBackground": "#454158",
       "activityBar.background": "#2c2640"
     }
   },
+
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
@@ -105,6 +107,9 @@
   },
   "editor.snippetSuggestions": "top",
   "editor.tokenColorCustomizations": {
+    "[Dracula]": {
+      "comments": "#7970A9"
+    },
     "textMateRules": [
       {
         "scope": [
